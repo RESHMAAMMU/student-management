@@ -4,7 +4,7 @@ Clone the project ,[git clone url]
 
 Check out to master branch [git checkout master]
 
-install the project [composer update]
+Update the project [composer update]
 
 create a database
 
