@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Vladimir Script';
+    src: url('../fonts/vladimirscript.eot');
+    src: url('../fonts/vladimirscript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/vladimirscript.woff2') format('woff2'),
+        url('../fonts/vladimirscript.woff') format('woff'),
+        url('../fonts/vladimirscript.ttf') format('truetype'),
+        url('../fonts/vladimirscript.svg#vladimirscript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

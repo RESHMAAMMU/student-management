@@ -1,0 +1,28 @@
+.edit-style {
+    line-height: initial;
+    color: #385569;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer
+}
+.modal-content{
+    width: 720px;
+}
+.error{
+    color: red;
+}
+.buttonxl{
+    line-height: 2.3;
+    padding: 0 1.5rem;
+    font-size: 1rem;
+}
+.button-primary{
+    background:#5873fe;
+    border-color: azure #5873fe #5873fe;
+    -webkit-box-shadow: 0 1px 0 #5873fe;
+    box-shadow: 0 1px 0 #5873fe;
+    color: #fff;
+    text-decoration: none;
+    /* text-shadow: 0 -1px 1px #bc1f52, 1px 0 1px #bc1f52, 0 1px 1px #bc1f52, -1px 0 1px #bc1f52; */
+}

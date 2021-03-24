@@ -1,0 +1,123 @@
+/* Devoloper edits */
+.promotional-items{
+    padding-bottom: 0px !important;
+}
+#sidebar .widget ul {
+    max-height: 208px!important;
+}
+.apply .loader { 
+  position: absolute;
+  z-index: 1050;
+  opacity:0.7;
+}
+.product .favourite.active {
+    color: #faa439;
+}
+.product .favourite.active .fa {
+    color: #faa439;
+}
+.product .favourite.active .fa-heart-o:before {
+    content: "\f004";
+}
+.error-input {
+    border-color: red !important;
+}
+.product .product-desc span a {
+    color: #2b3b45;
+}
+.jconfirm-content div{
+    height: 50px;
+}
+
+.jconfirm.jconfirm-supervan .jconfirm-bg {
+    background-color: rgba(109, 109, 109, 0.9) !important;
+}
+
+.jconfirm.jconfirm-supervan .jconfirm-box .jconfirm-buttons button.btn-success {
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    border-radius: 0 !important;
+    font-weight: 500 !important;
+}
+
+.jconfirm.jconfirm-supervan .jconfirm-box .jconfirm-buttons button.btn-warning {
+    color: #fff !important;
+    border-radius: 0 !important;
+    font-weight: 500 !important;
+}
+label.error {
+    font-size: 12px !important;
+    color: red !important;
+}
+
+.info .favourite .fa {
+    font-size: 30px;
+    color: #cecece;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+.info .favourite.active {
+    color: #faa439;
+}
+.info .favourite .fa:hover {
+    color: #faa439;
+}
+
+.address-choose {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.text-orange {
+    color: #e83a0c!important;
+}
+
+/*.default-address-btn {
+    height: 24px;
+    padding: 5px;
+    padding-top: 0px;
+    border-radius: 4px;
+}*/
+
+.helpwe select {
+    height: 50px !important;
+    border: 1px solid #ced4da!important;
+}
+
+.badge-secondary {
+    cursor:default;
+    padding: 0!important;
+    border-radius: 0!important;
+}
+.page-cart table tr:first-child {
+    border-bottom: none!important;
+}
+
+.btn-ligtsucc{background:#9ed544; }
+	.h60{height: 60px;}
+	.btn-success a{color:white!important}
+	.w100{width:100%}
+	.w50{width:50%}
+	.btn-ligtsucc a{color:white;}
+	.btn-ligtsucc:hover {opacity:0.8;}
+	#Resendshow{    cursor: pointer;
+    color: #259245;
+    text-decoration: underline;}
+	.verifycl p{    font-size: 14px;
+    color: #000;
+    line-height: 24px;}
+	.verifycl a{
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+	.receive p{    text-align: center;}
+	.w160 {
+    padding-left: 0px;
+}
+	.w600 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.fa-address-icons {font-size: 30px !important}

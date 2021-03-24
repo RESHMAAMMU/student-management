@@ -1,0 +1,45 @@
+/*
+* Carousel Default
+*/
+
+.carousel { position: relative; overflow: hidden; } 
+.carousel .owl-item { min-height: 1px; float: left; -webkit-backface-visibility: hidden; -webkit-touch-callout: none; } 
+.carousel .owl-stage { display: -webkit-flex; display: -ms-flexbox; display: flex; } 
+.carousel .owl-stage-outer { position: relative; overflow: hidden; -webkit-transform: translate3d(0, 0, 0); } 
+.carousel .owl-dots.disabled { display: none !important; } 
+.carousel .owl-dots .owl-dot span { display: none; } 
+.carousel .owl-nav button { border: 0px; padding: 0px; bottom: 0px; font-family: 'FontAwesome' !important; font-weight: 300; background: transparent; font-size: rem-calc(27); line-height: calc(30 / 27); width: 15px; height: 19px; line-height: 15px; border: 1px solid black; margin-right: 4px; } 
+.carousel .owl-nav button:hover { opacity: 0.7; } 
+.carousel .owl-nav button:last-child { margin-right: 0px; } 
+.carousel .owl-nav button.owl-prev:before { content: "\f104"; } 
+.carousel .owl-nav button.owl-next:before { content: "\f105"; } 
+.rtl .carousel .owl-nav button { margin-left: 4px; } 
+.rtl .carousel .owl-nav button.owl-prev:before { content: "\f105"; } 
+.rtl .carousel .owl-nav button.owl-next:before { content: "\f104"; } 
+.rtl .carousel .owl-nav button:last-child { margin-left: 0px; } 
+.carousel .owl-nav button span { font-size: 38px; line-height: 40px; display: inline-block; display: none; } 
+.owl-nav.disabled { display: none !important; } 
+.carousel1 .item { position: relative; } 
+.carousel1>.item { display: none; } 
+.carousel1>.item:first-child { display: block; } 
+.carousel1 .owl-nav { position: absolute; bottom: 10px; left: 50%; margin-left: 564px; } 
+@media (max-width: 1229px){
+ .carousel1 .owl-nav { margin-left: 520px; } 
+ }
+
+@media (max-width: 1199px){
+ .carousel1 .owl-nav { margin-left: 433px; } 
+ }
+
+@media (max-width: 991px){
+ .carousel1 .owl-nav { margin-left: 312px; } 
+ }
+@media (max-width: 767px){
+ .carousel1 .owl-nav { margin-left: 217px; } 
+ }
+@media (max-width:575px){
+ .carousel1 .owl-nav { margin-left: 0; left: auto; right: 15px; } 
+ }
+
+
+

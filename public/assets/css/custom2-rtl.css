@@ -1,0 +1,150 @@
+/* Upload image style
+----------------*/
+.cover-photo {
+    width: 200px;
+    height: 125px;
+    background-color: #a9a9a9;
+    text-align: center;
+    line-height: 109px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.loader {
+    position: absolute;
+    /*        top: 14px;
+            left: 83px;*/
+    z-index: 1050;
+}
+
+.preview-image-container {
+    position: relative;
+    width: 200px;
+    height: 125px;
+    top:-109px;
+}
+
+.preview-image-container button.scrn-img-close {
+    top: 10px;
+    left: -7px;
+}
+
+.scrn-img {
+    width: 200px;
+    margin-left: 0px;
+    height: 125px;
+    transition-duration: 0.5s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.scrn-img:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.scrn-img-close {
+    border-radius: 1000px;
+    border: none;
+    background: #fff;
+    position: relative;
+    transition-duration: 0.5s;
+    float: left;
+    left: 15px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+.scrn-img-close:hover {
+    background: #1f91f3;
+}
+
+.scrn-img-close:hover i {
+    color: #ffffff;
+}
+
+.scrn-img-close i {
+    font-size: 10px;
+    position: relative;
+    left: 1px;
+    transition-duration: 0.5s;
+    top: -3px;
+    opacity: 0.7;
+}
+
+.scrn-link {
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+.scrn-link:hover .scrn-img-close {
+    opacity: 1;
+}
+
+.scrn-link:hover {
+    transform: scale(1.1);
+}
+.scrn-crd {
+    padding: 20px;
+    padding-right: 0;
+}
+
+.cls_last_child {
+    text-align: right !important;
+}
+.btn {
+    cursor: pointer !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #252525 !important;
+}
+.area {
+    height: 80px;
+}
+.loading_box_overlay {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    display: none;
+}
+.loading_box {
+    position: fixed;
+    right: 35%;
+    top: 35%;
+    z-index: 99999;
+    float: right;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    display: none;
+}
+.ti-bell {
+    position: relative;
+    cursor: pointer;
+}
+span.fa-comment {
+    position: absolute;
+    font-size: 1em;
+    top: 1px;
+    color: red;
+    right: -4px;
+}
+span.num {
+    position: absolute;
+    font-size: 0.6em;
+    top: 2px;
+    color: #fff;
+    right: 1px;
+}
